@@ -1,6 +1,6 @@
 # GC녹십자 DART Financial Agent
 
-[![Dashboard](https://img.shields.io/badge/🔗%20Dashboard-Open-0A66C2?style=for-the-badge)](https://jinawinwin.github.io/Dart_GC/)
+[![GC Dashboard](assets/gc-dashboard.jpg)](https://jinawinwin.github.io/Dart_GC/)
 
 OpenDART를 이용하여 GC녹십자(006280, corp_code 00129679)의 사업보고서·반기보고서·분기보고서 재무데이터를 수집하고 주요 재무비율을 계산하여 GitHub Pages dashboard로 보여주는 자동화 프로젝트입니다.
 
