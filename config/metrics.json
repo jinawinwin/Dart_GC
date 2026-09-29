@@ -1,0 +1,19 @@
+{
+  "company": {"name": "GC녹십자", "stock_code": "006280", "corp_code": "00129679"},
+  "reports": {"annual": "11011", "half_year": "11012", "q1": "11013", "q3": "11014"},
+  "metrics": {
+    "revenue": ["매출액", "수익(매출액)"],
+    "gross_profit": ["매출총이익"],
+    "operating_profit": ["영업이익", "영업이익(손실)"],
+    "net_income": ["당기순이익", "당기순이익(손실)"],
+    "total_assets": ["자산총계"],
+    "total_liabilities": ["부채총계"],
+    "total_equity": ["자본총계"],
+    "current_assets": ["유동자산"],
+    "current_liabilities": ["유동부채"],
+    "cash": ["현금및현금성자산"],
+    "operating_cash_flow": ["영업활동현금흐름"],
+    "rd_expense": ["연구개발비"],
+    "eps": ["기본주당이익", "기본주당순이익"]
+  }
+}
