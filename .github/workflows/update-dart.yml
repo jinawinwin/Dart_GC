@@ -2,14 +2,24 @@ name: Update DART financial data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 15 1 * *'
+    # Run at 00:15 KST on the 1st. UTC is 15:15 on the previous UTC date.
+    # 28-31 covers the possible UTC month-end dates; the job exits unless KST day is 01.
+    - cron: '15 15 28-31 * *'
 permissions:
   contents: write
 jobs:
   update:
+    if: ${{ github.event_name == 'workflow_dispatch' || startsWith(github.event.schedule, '15 15 28-31') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check Korean calendar date
+        if: github.event_name == 'schedule'
+        run: |
+          if [ "$(TZ=Asia/Seoul date +%d)" != "01" ]; then
+            echo "Not the first day in Korea; exiting."
+            exit 0
+          fi
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -17,7 +27,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Collect OpenDART
         env:
-          DART_API_KEY: \${{ secrets.DART_API_KEY }}
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
           START_YEAR: '2010'
         run: python src/collect.py
       - name: Analyze
