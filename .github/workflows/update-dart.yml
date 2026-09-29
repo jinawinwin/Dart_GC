@@ -1,5 +1,11 @@
 name: Update DART financial data
 on:
+  push:
+    branches: ['main']
+    paths:
+      - 'src/**'
+      - 'config/**'
+      - '.github/workflows/update-dart.yml'
   workflow_dispatch:
   schedule:
     # Run at 00:15 KST on the 1st. UTC is 15:15 on the previous UTC date.
