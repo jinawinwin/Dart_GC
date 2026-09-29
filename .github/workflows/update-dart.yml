@@ -15,7 +15,7 @@ permissions:
   contents: write
 jobs:
   update:
-    if: ${{ github.event_name == 'workflow_dispatch' || startsWith(github.event.schedule, '15 15 28-31') }}
+    if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' || startsWith(github.event.schedule, '15 15 28-31') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
