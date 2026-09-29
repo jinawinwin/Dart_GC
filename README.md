@@ -16,7 +16,7 @@ OpenDART를 이용하여 GC녹십자(006280, corp_code 00129679)의 사업보고
 ## Dashboard
 https://jinawinwin.github.io/Dart_GC/
 
-상단 KPI와 그래프, Annual / Half-year / Quarterly 3개 표, 국내 peer firms 표를 제공합니다. 오른쪽 floating panel에서 브라우저 화면을 PDF로 출력하고 기간을 선택해 Excel 호환 CSV를 다운로드할 수 있습니다.
+상단 KPI와 그래프, Annual / Half-year / Quarterly 3개 표, 국내 peer firms 표를 제공합니다. 오른쪽 floating panel에서 브라우저 화면을 PDF로 출력하고 기간을 선택해 .xlsx Excel 파일을 다운로드할 수 있습니다.
 
 ## 주요 지표
 Revenue, Gross Profit, Operating Profit, Net Income, Total Assets, Total Liabilities, Total Equity, Current Assets, Current Liabilities, Cash, Operating Cash Flow, R&D Expense, EPS와 Operating Margin, Net Margin, ROA, ROE, Debt Ratio, Current Ratio, Cash Ratio, R&D Ratio를 계산합니다.
