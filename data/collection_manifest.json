@@ -1,0 +1,310 @@
+[
+  {
+    "year": 2010,
+    "status": "not_available_in_opendart_structured_financial_api"
+  },
+  {
+    "year": 2011,
+    "status": "not_available_in_opendart_structured_financial_api"
+  },
+  {
+    "year": 2012,
+    "status": "not_available_in_opendart_structured_financial_api"
+  },
+  {
+    "year": 2013,
+    "status": "not_available_in_opendart_structured_financial_api"
+  },
+  {
+    "year": 2014,
+    "status": "not_available_in_opendart_structured_financial_api"
+  },
+  {
+    "year": 2015,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2015,
+    "period": "half_year",
+    "status": "error",
+    "error": "013: 조회된 데이타가 없습니다."
+  },
+  {
+    "year": 2015,
+    "period": "q1",
+    "status": "error",
+    "error": "013: 조회된 데이타가 없습니다."
+  },
+  {
+    "year": 2015,
+    "period": "q3",
+    "status": "error",
+    "error": "013: 조회된 데이타가 없습니다."
+  },
+  {
+    "year": 2016,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2016,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2016,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2016,
+    "period": "q3",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2017,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2017,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2017,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2017,
+    "period": "q3",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2018,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2018,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2018,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2018,
+    "period": "q3",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2019,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2019,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2019,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2019,
+    "period": "q3",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2020,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2020,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2020,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2020,
+    "period": "q3",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2021,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2021,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2021,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2021,
+    "period": "q3",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2022,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2022,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2022,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2022,
+    "period": "q3",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2023,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2023,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2023,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2023,
+    "period": "q3",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2024,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2024,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2024,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2024,
+    "period": "q3",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2025,
+    "period": "annual",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2025,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2025,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2025,
+    "period": "q3",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2026,
+    "period": "annual",
+    "status": "error",
+    "error": "013: 조회된 데이타가 없습니다."
+  },
+  {
+    "year": 2026,
+    "period": "half_year",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2026,
+    "period": "q1",
+    "fs_div": "CFS",
+    "status": "ok"
+  },
+  {
+    "year": 2026,
+    "period": "q3",
+    "status": "error",
+    "error": "013: 조회된 데이타가 없습니다."
+  }
+]
